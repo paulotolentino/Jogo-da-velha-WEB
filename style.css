@@ -1,0 +1,72 @@
+.input-nome{
+	border: 0px;
+}
+
+.palco{
+	margin-top: 50px;
+	text-align: center;
+	display: none;
+}
+
+.div1{
+	display: inline-block;
+}
+
+.top1{
+	border-bottom: solid 1px red;
+	border-right: solid 1px red;
+}
+
+.top2{
+	border-bottom: solid 1px red;
+	border-right: solid 1px red;
+	border-left: solid 1px red;
+}
+
+.top3{
+	border-bottom: solid 1px red;
+	border-left: solid 1px red;
+}
+
+.mid1{
+	border-bottom: solid 1px red;
+	border-right: solid 1px red;
+	border-top: solid 1px red;
+}
+
+.mid2{
+	border-bottom: solid 1px red;
+	border-right: solid 1px red;
+	border-left: solid 1px red;
+	border-top: solid 1px red;
+}
+
+.mid3{
+	border-bottom: solid 1px red;
+	border-left: solid 1px red;
+	border-top: solid 1px red;
+}
+
+.bot1{
+	border-top: solid 1px red;
+	border-right: solid 1px red;
+}
+
+.bot2{
+	border-top: solid 1px red;
+	border-right: solid 1px red;
+	border-left: solid 1px red;
+}
+
+.bot3{
+	border-top: solid 1px red;
+	border-left: solid 1px red;
+}
+
+.jogada{
+	width: 100px; height: 100px;
+}
+
+#jogar-novamente{
+	width: 8%;
+}

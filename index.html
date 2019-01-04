@@ -1,0 +1,92 @@
+<!DOCTYPE HTML>
+<html lang="pt-br">
+	<head>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<title>Jogo da velha</title>
+		<script src="jquery-2.2.1.js"></script>
+		<script src="jogo.js"></script>
+	</head>
+
+	<body>
+		<div id="pagina_inicial" align="center">
+			<table border="0" width="600px">
+				<thead>
+					<tr>
+						<td colspan="3" align="center">JOGO DA VELHA</td>
+					</tr>
+					<tr>
+						<td align="center">
+							<img src="imagens/jogador_1.png" />
+							<br />
+							<input type="text" maxlength="10" id="nome1" placeholder="Apelido jogador 1" class="input-nome">
+						</td>
+						<td align="center">
+							<img id="btn-iniciar-jogo" src="imagens/iniciar.png" />
+						</td>
+						<td align="center">
+							<img src="imagens/jogador_2.png">
+							<br />
+							<input type="text" maxlength="10" id="nome2" placeholder="Apelido jogador 2" class="input-nome">
+						</td>
+					</tr>
+				</thead>
+			</table>
+		</div>
+		<div id="palco_jogo" class="palco">
+			<div class="div1">
+				<img src="imagens/jogador_1.png" />
+				<br />
+				<span id="nome_jogador1"></span>
+			</div>
+			<div class="div1">
+				<table border="0">
+					<tr>
+						<td class="top1">
+							<div class="jogada" id="a-1"></div>
+						</td>
+						<td class="top2">
+							<div class="jogada" id="a-2"></div>
+						</td>
+						<td class="top3">
+							<div class="jogada" id="a-3"></div>
+						</td>
+					</tr>
+					<tr>
+						<td class="mid1">
+							<div class="jogada" id="b-1"></div>
+						</td>
+						<td class="mid2">
+							<div class="jogada" id="b-2"></div>
+						</td>
+						<td class="mid3">
+							<div class="jogada" id="b-3"></div>
+						</td>
+					</tr>
+					<tr>
+						<td class="bot1">
+							<div class="jogada" id="c-1"></div>
+						</td>
+						<td class="bot2">
+							<div class="jogada" id="c-2"></div>
+						</td>
+						<td class="bot3">
+							<div class="jogada" id="c-3"></div>
+						</td>
+					</tr>
+				</table>
+			</div>
+			<div class="div1">
+				<img src="imagens/jogador_2.png" />
+				<br />
+				<span id="nome_jogador2"></span>
+			</div>
+			<br />
+			<br />
+			<br />
+			<div>
+				<img src="imagens/novamente.png" id="jogar-novamente">
+			</div>
+		</div>
+	</body>
+</html>
