@@ -44,8 +44,9 @@ $(document).ready( function(){
 	});
 
 	$('.jogada').click( function(){
-		var id = this.id;
-		jogada(id);
+		var id_ = this.id;
+		$('#'+id_).off();
+		jogada(id_);
 	});
 
 	function jogada(id_click){
